@@ -1,4 +1,6 @@
 import React from 'react';
+import { supabase } from '../../lib/supabase'; // Importamos el cliente
+import LoadingSpinner from '../ui/LoadingSpinner'; // Usamos un spinner de carga
 
 const Contacts = () => {
   return (
